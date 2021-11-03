@@ -1,10 +1,14 @@
 {
-  "name": "ecomm",
+  "name": "ecommerce-app",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "17.0.1"
+  },
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js --ignore *.json"
+    "dev": "nodemon index.js --ignore *.json",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
